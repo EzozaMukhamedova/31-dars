@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Times New Roman";
+  src: url("./assets/fonts/timesnewromanpsmt.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("./assets/fonts/OpenSans-VariableFont.otf") format("opentype");
+}
+
+.font-OpenSans {
+  font-family: "OpenSans", sans-serif;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+}
+
+body {
+  color: white;
+  background: url("../assets/images/hero-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.celebrate {
+  background: url("../assets/images/otprazdnuyte-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  height: 357px;
+}
+
+.menu {
+  background: url(../assets/images/menu-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1034px;
+}
+
+.footer-img {
+  background: url(../assets/images/footer-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 732px;
+}
